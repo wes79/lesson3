@@ -24,7 +24,9 @@ time, mark, audio, video {
 }
 .header{
 	background-image: url("../img/background1.png");
+	background-size:cover;
 	float:left;
+	
 }
 .top_menu{
 	width:100%;
@@ -36,7 +38,6 @@ time, mark, audio, video {
 .menu{
 	width:60%;
 	display: block;
-
 	list-style: none;
 	margin-left:20%;
 	margin-right:20%;
@@ -74,7 +75,7 @@ time, mark, audio, video {
 	color: #ffffff;
 	text-transform: uppercase;
 	margin-top:15%;
-	margin-bottom:10%;
+	margin-bottom:20%;
 	text-align:center;
 }
 .backgroundText h1{
@@ -98,7 +99,11 @@ time, mark, audio, video {
 	padding:1% 3%;
 	border-radius: 3%;
 	font-size:0.7rem;
+	width:15%;
 	
+}
+.smallBtn{
+	width:90%;
 }
 
 .icons{
@@ -108,7 +113,7 @@ time, mark, audio, video {
 .icons img{
 	width:8%;
 	margin-left:46%;
-	margin-bottom:2%;
+	margin-bottom:1%;
 	
 }
 .content{
@@ -137,7 +142,7 @@ time, mark, audio, video {
 }
 
 .textContent{
-	width:30%;
+	width:50%;
 	padding:8%;
 	float:left;
 }
@@ -157,13 +162,14 @@ time, mark, audio, video {
 
 }
 .imgContent img{
-	width:65%;
+	width:100%;
 	position:absolute;
 	right:20%;
-	margin-top:15%;
+	margin-top:20%;
 	z-index:200;
 }
 .leftButton{
+	width:30%;
 	text-align:left;
 	padding: 4% 0;
 	
@@ -178,9 +184,258 @@ time, mark, audio, video {
 	float:left;
 } 
 .rightText{
-	width:40%;
+	width:50%;
 	float:right;
 }
 #phone{
 	width:50%;
 }
+
+.containerDubbleImg{
+	background-color:#f5f6f7;
+	float:left;
+	text-align:center;
+	z-index:400;
+	position:relative;
+	padding: 5% 0;
+
+	
+}
+
+.textCenter{
+	width:29%;
+	float:left;
+	padding:5%;
+	padding-bottom:0;
+	margin-right:5%;
+}
+.textCenter img{
+	width:18%;
+}
+
+.textCenter h4{
+	font-size:1.3rem;
+	text-transform: uppercase;
+}
+.textCenter p{
+	padding-top:3%;
+}
+
+.dubbleImg{
+	width:28%;
+	float:left;
+	padding-right:2%;
+	
+}
+
+.absoluteImg{
+	position:relative;
+}
+.absoluteImg img{
+	
+}
+
+.absoluteElements{
+	position:absolute;
+	top:80%;
+	left:28%;
+	display:block;
+	width:30%;
+	text-align:center;
+	
+}
+
+.absoluteElements input{
+	padding:2%;
+	border-radius:5% 0 0 5%;
+	margin-left:16%;
+	border-bottom:2px;
+	
+	
+}
+.absoluteElements h4{
+	color: #ffffff;
+	font-size:1.3rem;
+	text-transform: uppercase;
+	margin-bottom:3%;
+	
+}
+
+.inputs{
+	float:left;
+	
+	
+}
+.inputs input{
+	float:left;
+	width:60%;
+	border:none;
+}
+
+.submit{
+	border-radius:0 5% 5% 0;
+	margin:-5px;
+	border:none;
+	padding-bottom:7px;
+	float:left;
+	width: 8%;
+	z-index:500;
+	top:11%;
+	
+	
+}
+.glyphicon .glyphicon-ok{
+	position:absolute;
+}
+
+
+.glyphicon-ok::before{
+	position:absolute;
+	left:50%;
+	top:30%;
+	z-index:400;
+	color:#ffffff;
+}
+
+
+#submit{
+	background-color:#16a085;
+	width:130%;
+	z-index:200;
+	position:relative;
+	min-height:39px;
+	border:none;
+	margin-top: 14%;
+	border-radius:0 5% 5% 0;
+}
+
+.bottomLinks{
+	float:left;
+	background-color:#f5f6f7;
+	text-align:center;
+}
+.bottomLinks h3{
+	font-size:1.5rem;
+	padding-top:5%;
+}
+
+.bottomLinks p{
+	font-size:1.2rem;
+	width:60%;
+	margin-left:20%;
+	padding-top:2%;
+}
+
+.greenBgr{
+	float:left;
+	width:30%;
+	margin:2%;
+	
+}
+
+#greenBgrCenter{
+	width:60%;
+	margin-left:30%;
+	margin-bottom:10%;
+}
+.greenBgr a,
+.greenBgr img{
+	float:left;
+	padding:5%;
+	
+}
+.greenBgr a{
+	background-color:#1abc9c;
+	width:72%;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius:5% 0 0 5%;
+}
+.greenBgr img{
+	width:18%;
+	background-color:#16a085;
+	padding-bottom:5%;
+	border-radius:0 5% 5% 0;
+}
+
+footer{
+    background-color: #ffffff;
+    float: left;
+    position: relative;
+    z-index: 400;
+    width: 94%;
+	padding:3%;
+	position:relative;
+
+    
+}
+footer ul{
+    margin-left: 4%;
+}
+footer ul li {
+    font-size: 1rem;
+    float: left;
+    margin:1% 0% ;
+    border-right: solid #54b9a6 1px;
+    padding: 0% 1%;
+	width:15%;
+	list-style:none;
+	
+}
+footer ul li:last-of-type{
+    border:none;
+}
+footer ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+	font-size:1.2rem;
+}
+
+footer p{
+	float:left;
+	margin-left: 5%;
+
+}
+
+footer img{
+	width:5%;
+	position:absolute;
+	right:5%;
+	top:25%;
+}
+
+
+.glyphicon-chevron-left::before{
+	float:left;
+	
+}
+
+
+.glyphicon-chevron-right::before {
+	float:left;
+
+}
+
+.glyphicon-chevron-left{
+	width:5%;
+	margin-right:3%;
+}
+.glyphicon-chevron-right{
+	width:5%;
+}
+
+.containerDubbleImg a{
+	position:absolute;
+	top:3%;
+	right:5%;
+	padding:2%;
+}
+
+.chevron{
+	position:absolute;
+	right:8%;
+	top: 3%;
+}
+.
