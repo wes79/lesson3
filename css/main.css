@@ -17,10 +17,19 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 	width:100%;
+	
+}
+
+@font-face {
+   font-family: myFont;
+   src: url(../fonts/MYRIADPRO-COND.OTF);
 }
 #wrapper{
 	box-sizing: border-box;
 	font-size: 16px;
+	font-family:myFont;
+	font-stretch: expanded;
+	letter-spacing: 3px;
 }
 .header{
 	background-image: url("../img/background1.png");
@@ -80,6 +89,8 @@ time, mark, audio, video {
 }
 .backgroundText h1{
 	font-size:2rem;
+	letter-spacing: 10px;
+	font-weight:700;
 }
 
 .backgroundText h2{
@@ -100,10 +111,12 @@ time, mark, audio, video {
 	border-radius: 3%;
 	font-size:0.7rem;
 	width:15%;
+	z-index:500;
 	
 }
 .smallBtn{
 	width:90%;
+	z-index:500;
 }
 
 .icons{
@@ -150,6 +163,7 @@ time, mark, audio, video {
 	font-size:1.3rem;
 	color:#25a68d;
 	padding-bottom:4%;
+	text-transform: uppercase;
 }
 
 .textContent p{
@@ -230,6 +244,7 @@ time, mark, audio, video {
 
 .absoluteImg{
 	position:relative;
+	float:left;
 }
 .absoluteImg img{
 	
@@ -237,8 +252,8 @@ time, mark, audio, video {
 
 .absoluteElements{
 	position:absolute;
-	top:80%;
-	left:28%;
+	top:50%;
+	left:33%;
 	display:block;
 	width:30%;
 	text-align:center;
@@ -317,6 +332,7 @@ time, mark, audio, video {
 .bottomLinks h3{
 	font-size:1.5rem;
 	padding-top:5%;
+	text-transform: uppercase;
 }
 
 .bottomLinks p{
